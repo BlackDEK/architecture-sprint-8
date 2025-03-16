@@ -27,6 +27,10 @@
         # pyhton
         (python311.withPackages (ps: with ps; [
           autopep8
+          flask
+          flask-cors
+          python-keycloak
+          gunicorn
         ]))
       ];
 
